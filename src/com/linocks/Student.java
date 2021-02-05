@@ -52,7 +52,10 @@ public class Student implements Nameable, HasLevel{
     }
 
     public DoubleStream getGradesAsDoubleStream(){
-        return studentGrades.stream().mapToDouble(s->s.doubleValue());
+        return studentGrades
+                .stream()
+                .mapToDouble(g->g.doubleValue());
+
     }
 
 

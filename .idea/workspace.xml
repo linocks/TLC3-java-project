@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0ba5336b-d93d-458e-856e-8e8bab946408" name="Default Changelist" comment="" />
+    <list default="true" id="0ba5336b-d93d-458e-856e-8e8bab946408" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linocks/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linocks/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/linocks/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/linocks/Student.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +50,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1nmzqHWpmeFaKloaAErioHRd31o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -56,12 +61,13 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/resource" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -74,6 +80,9 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.linocks" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ENOCK\PROJECTS\TLC3\src\resource" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -185,7 +194,7 @@
       <updated>1612010242114</updated>
       <workItem from="1612010319799" duration="8374000" />
       <workItem from="1612283232653" duration="11276000" />
-      <workItem from="1612449491730" duration="38657000" />
+      <workItem from="1612449491730" duration="47555000" />
     </task>
     <servers />
   </component>
@@ -261,9 +270,9 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="182" y="46" key="new project wizard/0.0.1600.900/-1366.138.1366.768@0.0.1600.900" timestamp="1612447960046" />
-    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1612525715782">
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1612536167192">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900/-1366.138.1366.768@0.0.1600.900" timestamp="1612525715782" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900/-1366.138.1366.768@0.0.1600.900" timestamp="1612536167192" />
   </component>
 </project>

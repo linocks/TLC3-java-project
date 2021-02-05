@@ -4,6 +4,7 @@ import jdk.nashorn.internal.runtime.options.Option;
 
 import java.util.*;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import java.util.stream.StreamSupport;
 
 public class Register<T extends Student> {
@@ -132,14 +133,26 @@ public class Register<T extends Student> {
         return student.getName();
     }
 
+
     public Optional<T> getOptionalStudent(String studentName) {
         return list
                 .stream()
-                .filter(s -> s.getName().equals(studentName))
-                .findAny();
+                .filter(s -> s.getName().equalsIgnoreCase(studentName))
+                .findFirst();
     }
 
+
     public List<T> getStudentByName(List<String> studentNames) {
+//        List<Student> studentsList = new ArrayList<Student>();
+//        for(String name : studentNames){
+//            for(Student s :list){
+//                s.getName().equalsIgnoreCase(name);
+//                studentsList.add(s);
+//            }
+//        }
+
+//        return studentsList;
+
         return list
                 .stream()
                 .map(s -> {
@@ -157,6 +170,7 @@ public class Register<T extends Student> {
     }
 
     public double getOverAllHighestGrade() {
+
         return list
                 .stream()
                 .map(s -> s.studentGrades)
@@ -176,13 +190,27 @@ public class Register<T extends Student> {
     }
 
     public List<Double> getGradesAboveSixty() {
+        /*
+        List<Double> doubleList =  new ArrayList<>();
+            for(Student s : list){
+                for(Double d : s.studentGrades){
+                    if(d>60){
+                       doubleList.add(d);
+                    }
+
+                }
+            }
+            return doubleList;
+
+         */
+
+
+
         return list
                 .stream()
                 .map(s -> s.studentGrades)
                 .flatMap(s -> s.stream())
-//                .mapToDouble(s->s.doubleValue())
                 .filter(s -> s > 60)
-                .map(s -> s)
                 .collect(Collectors.toList());
 
     }
